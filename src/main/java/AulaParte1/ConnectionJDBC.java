@@ -1,3 +1,5 @@
+package AulaParte1;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -8,7 +10,7 @@ public class ConnectionJDBC {
     String dbAdress;
     String dbName;
     String user;
-    static String password;
+    String password;
 
     public ConnectionJDBC(String driver, String dbAdress, String dbName, String user, String password) {
         this.driver = driver;
@@ -19,7 +21,6 @@ public class ConnectionJDBC {
     }
 
     public void testeConexao(){
-
 
         StringBuilder sb = new StringBuilder("jdbc:")
                 .append(this.driver).append("://")
@@ -34,6 +35,5 @@ public class ConnectionJDBC {
             System.out.println("Falha");
             e.printStackTrace();
         }
-
     }
 }

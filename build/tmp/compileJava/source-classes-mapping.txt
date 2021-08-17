@@ -1,6 +1,12 @@
-ConnectionJDBC.java
- ConnectionJDBC
-ServerSQLConnection.java
- ServerSQLConnection
-MySQLConnection.java
- MySQLConnection
+AulaParte1/ConnectionJDBC.java
+ AulaParte1.ConnectionJDBC
+AulaParte2/AlunoDAO.java
+ AulaParte2.AlunoDAO
+AulaParte2/ConnectionFactory.java
+ AulaParte2.ConnectionFactory
+AulaParte1/MySQLConnection.java
+ AulaParte1.MySQLConnection
+AulaParte2/Aluno.java
+ AulaParte2.Aluno
+AulaParte2/QueriesExecutor.java
+ AulaParte2.QueriesExecutor

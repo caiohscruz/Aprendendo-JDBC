@@ -1,3 +1,7 @@
+package AulaParte1;
+
+import AulaParte1.ConnectionJDBC;
+
 public class MySQLConnection {
 
     static String driver = "mysql";

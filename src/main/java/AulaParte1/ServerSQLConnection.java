@@ -1,8 +1,9 @@
+/*
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-/* Não está funcionando ainda, pretendo implementar a conexao com o SQLServer
 
 public class ServerSQLConnection {
 
@@ -14,7 +15,7 @@ public class ServerSQLConnection {
             throwables.printStackTrace();
         }
 
-        String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=DigitalInnovationOne;integratedSecurity=true;";
+        String connectionUrl = "jdbc:sqlserver://localhost;integratedSecurity=true;";
 
         try (Connection conn = DriverManager.getConnection(connectionUrl)){
             System.out.println("Sucesso");
@@ -26,4 +27,5 @@ public class ServerSQLConnection {
     }
 
 }
-*/
+
+ */
